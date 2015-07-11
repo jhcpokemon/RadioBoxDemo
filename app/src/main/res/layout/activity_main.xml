@@ -24,6 +24,7 @@
     </RadioGroup>
 
     <RadioGroup
+        android:id="@+id/group2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/group1"
@@ -41,4 +42,10 @@
             android:layout_height="wrap_content"
             android:text="Button D"/>
     </RadioGroup>
+
+    <TimePicker
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/group2">
+    </TimePicker>
 </RelativeLayout>
